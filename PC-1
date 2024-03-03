@@ -115,5 +115,4 @@ _G.GunSettings = { -- ปืนที่จะทำ
 }
 getgenv().Key = "MARU-EPQ4S-5ZCF0-HWC6-QY1AY-2EO6"
 getgenv().id = "695558504563474452"
-getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
