@@ -39,6 +39,9 @@ _G.MainSettings = {
             [4] = "Leopard-Leopard",
             [5] = "Mammoth-Mammoth",
             [6] = "T-Rex-T-Rex"
+            [7] = "Shadow-Shadow"
+            [8] = "Buddha-Buddha"
+            [9] = "Spirit-Spirit"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
