@@ -20,7 +20,7 @@ _G.LogsDes = {
 }
 _G.WebHook = {
     ["Enabled"] = true, -- เปิดการใช้งาน
-    ["Url"] = "https://discord.com/api/webhooks/1213056195296755722/M6F33n2lNIj71OGhEU_ncsjpmLxv3fqd0OVMHT3r32bA3vSvH7ei1BVKcSbXHTEQtFVm", -- ลิ้งค์เว็บฮุก
+    ["Url"] = "https://discord.com/api/webhooks/1213878689868283956/pxZS3GXjDHcqgFPBmypj9MxUxHt0HoANPQypafgQeRq87OYUiqwP5HJr2j6T8HGMXezZ", -- ลิ้งค์เว็บฮุก
     ["Delay"] = 60 -- วินาที
 }
 _G.MainSettings = {
