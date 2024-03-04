@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 getgenv().Hermanos_Settings = {
     ['key'] = 'cdf414ac-51f1-4135-8973-44b516554f25',
-    ['PC'] = 'PC-2',
+    ['PC'] = 'PC-1',
     ['Sword'] = {'Cursed Dual Katana', 'Tushita', 'Yama', 'Dark Dagger', 'Hallow Scythe', 'Shark Anchor'},
     ['Fruit'] = {'Kitsune', 'Leopard', 'Dragon',  'Spirit', 'Control', 'Venom', 'Shadow', 'Dough','Mammoth', 'T-Rex'},
 }
@@ -10,6 +10,7 @@ repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
+_G.RemoveTrigonUi = true
 _G.Team = "Pirate" -- Marine / Pirate
 _G.KAITUN_SCRIPT = true
 _G.LogsDes = {
@@ -41,7 +42,7 @@ _G.MainSettings = {
             [6] = "T-Rex-T-Rex",
             [7] = "Shadow-Shadow",
             [8] = "Buddha-Buddha",
-            [9] = "Spirit-Spirit",
+            [9] = "Spirit-Spirit"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
