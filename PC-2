@@ -10,6 +10,7 @@ repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
+_G.RemoveTrigonUi = true
 _G.Team = "Pirate" -- Marine / Pirate
 _G.KAITUN_SCRIPT = true
 _G.LogsDes = {
@@ -33,15 +34,17 @@ _G.MainSettings = {
         ['AFKCheck'] = 150, -- ถ้ายืนนิ่งเกินวิที่ตั้งมันจะรีเกม
         ["LockFragments"] = 20000, -- ล็อคเงินม่วง
         ["LockFruitsRaid"] = { -- ล็อคผลที่ไม่เอาไปลงดัน
-            [1] = "Dough-Dough",
-            [2] = "Dragon-Dragon",
-            [3] = "Kitsune-Kitsune",
-            [4] = "Leopard-Leopard",
-            [5] = "Mammoth-Mammoth",
-            [6] = "T-Rex-T-Rex",
-            [7] = "Shadow-Shadow",
-            [8] = "Buddha-Buddha",
-            [9] = "Spirit-Spirit"
+            [1] = "Kitsune-Kitsune",
+            [2] = "Leopard-Leopard",
+            [3] = "Dragon-Dragon",
+            [4] = "Spirit-Spirit",
+            [5] = "Venom-Venom",
+            [6] = "Shadow-Shadow",
+            [7] = "Dough-Dough",
+            [8] = "Mammoth-Mammoth",
+            [9] = "T-Rex-T-Rex",
+            [10] = "Buddha-Buddha",
+            [11] = "Quake-Quake"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
