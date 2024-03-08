@@ -43,6 +43,9 @@ _G.MainSettings = {
             [7] = "Shadow-Shadow",
             [8] = "Buddha-Buddha",
             [9] = "Spirit-Spirit"
+            [10] = "Control-Control"
+            [11] = "Quake-Quake"
+            [12] = "Phoenix-Phoenix"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
