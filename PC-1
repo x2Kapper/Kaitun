@@ -20,7 +20,7 @@ _G.MainSettings = {
         ["EnabledHOP"] = true,
         ['FPSBOOST'] = true,
         ["FPSLOCKAMOUNT"] = 60,
-        ['WhiteScreen'] = true,
+        ['WhiteScreen'] = false,
         ['CloseUI'] = true,
         ["NotifycationExPRemove"] = true,
         ['AFKCheck'] = 150,
@@ -48,7 +48,7 @@ _G.MainSettings = {
     }
 _G.Fruits_Settings = {
     ['Main_Fruits'] = {'Dough-Dough'},
-    ['Select_Fruits'] = {"Flame-Flame", "Ice-Ice", "Quake-Quake", "Light-Light", "Dark-Dark", "Spider-Spider", "Rumble-Rumble", "Magma-Magma", "Buddha-Buddha"} -- กินหรือซื้อตอนไม่มีผล
+    ['Select_Fruits'] = {"Flame-Flame", "Ice-Ice", "Quake-Quake", "Light-Light", "Dark-Dark", "Spider-Spider", "Rumble-Rumble", "Magma-Magma", "Buddha-Buddha"}
 }
 _G.Quests_Settings = {
     ['Rainbow_Haki'] = true,
@@ -69,7 +69,7 @@ _G.Races_Settings = {
                 ["Mink"] = true,
                 ["Human"] = true,
                 ["Fishman"] = true,
-		["Angel"] = true
+				["Angel"] = true
             },
             ["RerollsWhenFragments"] = 20000
         }
