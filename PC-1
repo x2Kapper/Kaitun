@@ -13,7 +13,7 @@ _G.LogsDes = {
 }
 _G.WebHook = {
     ["Enabled"] = true,
-    ["Url"] = "https://discord.com/api/webhooks/1214176344611491870/xsg4Q80V4QxzmiSZlnCp77Gu9WJD6tQxOEKC_CVgxnl1uju573MtaI7OGv9MdjXJl3CH",
+    ["Url"] = "https://discord.com/api/webhooks/1238493642969317378/wCN-yM-nAn8uRQPd0wmreuTmBSC5n9wpkiUkXrx0Wam1-cepbaSzAsi_RlHcitcbO0Fy",
     ["Delay"] = 60
 }
 _G.MainSettings = {
