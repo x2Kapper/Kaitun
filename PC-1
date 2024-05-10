@@ -68,8 +68,8 @@ _G.Races_Settings = {
             ["Races"] = { 
                 ["Mink"] = true,
                 ["Human"] = true,
-                ["Fishman"] = true
-				["Angel"] = true
+                ["Fishman"] = true,
+		["Angel"] = true
             },
             ["RerollsWhenFragments"] = 20000
         }
